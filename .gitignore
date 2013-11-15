@@ -12,8 +12,7 @@
 
 #php and sql files 
 *.sql
-connect.php
-dbinfo.php
+/dbinfo.php
 
 # OS or Editor folders
 .DS_Store
