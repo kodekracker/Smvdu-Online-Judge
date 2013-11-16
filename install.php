@@ -1,29 +1,27 @@
 <?php
 /*
- * Codejudge
- * Copyright 2012, Sankha Narayan Guria (sankha93@gmail.com)
- * Licensed under MIT License.
+ * 
  *
  * Installation PHP Script
  */
-	require_once('functions.php');
-	if(isset($_POST['host'])) {
-		// create file 'dbinfo.php'
-		$fp = fopen('dbinfo.php','w');
-		$l1 = '$host="'.$_POST['host'].'";';
-		$l2 = '$user="'.$_POST['username'].'";';
-		$l3 = '$password="'.$_POST['password'].'";';
-		$l4 = '$database="'.$_POST['name'].'";';
-		$l5 = '$compilerhost="'.$_POST['chost'].'";';
-		$l6 = '$compilerport='.$_POST['cport'].';';
-		fwrite($fp, "<?php\n$l1\n$l2\n$l3\n$l4\n$l5\n$l6\n?>");
-		fclose($fp);
-		include('dbinfo.php');
-		// connect to the MySQL server
-		mysql_connect($host,$user,$password);
-		// create the database
-		mysql_query("CREATE DATABASE $database");
-		mysql_select_db($database) or die('Error connecting to database.');
+require_once('functions.php');
+if(isset($_POST['host'])) {
+    // create file 'dbinfo.php'
+    $fp = fopen('dbinfo.php','w');
+    $l1 = '$host="'.$_POST['host'].'";';
+    $l2 = '$user="'.$_POST['username'].'";';
+    $l3 = '$password="'.$_POST['password'].'";';
+    $l4 = '$database="'.$_POST['name'].'";';
+    $l5 = '$compilerhost="'.$_POST['chost'].'";';
+    $l6 = '$compilerport='.$_POST['cport'].';';
+    fwrite($fp, "<?php\n$l1\n$l2\n$l3\n$l4\n$l5\n$l6\n?>");
+    fclose($fp);
+    include('dbinfo.php');
+    // connect to the MySQL server
+    mysql_connect($host,$user,$password);
+    // create the database
+    mysql_query("CREATE DATABASE $database");
+    mysql_select_db($database) or die('Error connecting to database.');
 		// create the preferences table
 		mysql_query("CREATE TABLE `prefs` (
   `name` varchar(30) NOT NULL,

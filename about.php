@@ -1,8 +1,6 @@
 <?php
 /*
- * Codejudge
- * Copyright 2012, Sankha Narayan Guria (sankha93@gmail.com)
- * Licensed under MIT License.
+ * 
  *
  * About page
  */
@@ -45,11 +43,15 @@
   <body>
 
     <div class="container">
-      <h1>Codejudge</h1><hr/>
-      <p>Codejudge is a system used to hold coding competitions like this. Its easy to setup, fast and simple to use.</p>
-      <p>Codejudge is made by Sankha Narayan Guria. Find him at <a href="https://twitter.github.com/sankha93">@sankha93</a> on Twitter.<br/>
-      Mail me at <a href="mailto:sankha93@gmail.com">sankha93@gmail.com</a>.</p>
-      <p>Visit the Codejudge website at <a href="http://sankha93.github.com/codejudge">http://sankha93.github.com/codejudge</a> for more information.</p>
+      <h1>SMVDU Online Judge</h1><hr/>
+      <p>SMVDU Online Judge is a system used to hold coding competitions like this. Its easy to setup, fast and simple to use.</p>
+      <p>SMVDU Online Judge is made by following contributors :-</p>
+      <pre>
+          1) Akshay Pratap Singh (2011ECS01)
+          2) Rishabh Shukla (2011ECS13)
+          3) Aman Kumar (2011ECS11)
+          4) Sunny Kumar (2011ECS43)
+      </pre> 
     </div> <!-- /container -->
     
 <?php

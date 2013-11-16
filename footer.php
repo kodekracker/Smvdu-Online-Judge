@@ -1,14 +1,12 @@
 <?php
 /*
- * Codejudge
- * Copyright 2012, Sankha Narayan Guria (sankha93@gmail.com)
- * Licensed under MIT License.
+ * 
  *
  * Footer for all pages
  */
 ?>
     <hr/>
-    <div class="footer">Powered by <a href="about.php">Codejudge</a>.</div>
+    <div class="footer">Powered by <a href="about.php">SMVDU</a>.</div>
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
