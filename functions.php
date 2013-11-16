@@ -2,7 +2,7 @@
 /*
  * 
  *
- * Common functions used throughout Codejudge
+ * Common functions used throughout Online Judge
  */
 session_start();
 
