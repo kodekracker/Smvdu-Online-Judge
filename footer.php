@@ -6,7 +6,7 @@
  */
 ?>
     <hr/>
-    <div class="footer">Powered by <a href="about.php">SMVDU</a>.</div>
+    <div class="footer">Powered by <a href="about.php">SMVDU Online Judge</a>.</div>
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
