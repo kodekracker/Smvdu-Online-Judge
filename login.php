@@ -94,12 +94,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="#"><?php echo(getName()); ?></a>
+          <a class="brand" href="#" style="width: 100%; text-align: center;"><?php echo(getName()); ?></a>
         </div>
       </div>
     </div>
 
-    <div class="container">
+    <div class="container" style="width: 300px;">
 
       <?php
         if(isset($_GET['logout']))
@@ -127,7 +127,7 @@
         <h1><small>New User? Register now</small></h1>
         Username: <input type="text" name="username"/><br/>
         Password: <input type="password" name="password"/><br/>
-        Email: <input type="email" name="email"/><br/><br/>
+        Email-ID:  <input type="email" name="email"/><br/><br/>
         <input class="btn btn-primary" type="submit" name="submit" value="Register"/>
     </div> <!-- /container -->
 

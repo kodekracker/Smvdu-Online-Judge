@@ -8,7 +8,7 @@
  */
 ?>
     <hr/>
-    <div class="footer">Powered by <a href="../about.php">Codejudge</a>.</div>
+    <div class="footer">Powered by <a href="../about.php">SMVDU online Judge</a>.</div>
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

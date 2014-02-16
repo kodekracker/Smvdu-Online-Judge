@@ -73,7 +73,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="#">Codejudge</a>
+          <a class="brand" href="#">SMVDU Online Judge</a>
         </div>
       </div>
     </div>
