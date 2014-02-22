@@ -46,6 +46,8 @@ dwsync.xml
 intermediate
 publish
 .idea
+angular/node_modules
+angular/app/bower_components
 
 # build script local files
 build/buildinfo.properties
