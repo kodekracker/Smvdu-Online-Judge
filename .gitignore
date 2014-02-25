@@ -48,7 +48,8 @@ publish
 .idea
 angular/node_modules
 angular/app/bower_components
-
+angular/.tmp
+angular/dist
 # build script local files
 build/buildinfo.properties
 build/config/buildinfo.properties
